@@ -1,8 +1,10 @@
-# Aprendendo PHP #
+# CRUD PHP #
 
 Projeto em desenvolvimento usando XAMPP e Linux (Ubuntu)
 
-Preparando o ambiente:  
+## Preparando o ambiente: ##
+
+### Instalação do XAMPP ###
 
 1. Para essa situação foi usado um sistema de 64 bits. Caso esteja em dúvida quanto a arquitetura do seu sistema, digite no terminal:
 ``` 
@@ -33,3 +35,26 @@ sudo apt-get install gksu
 sudo /opt/lampp/lampp start
 ```
 8. Se tudo estiver certo basta digitar _localhost_ no navegador e verificar se irá aparecer a página inicial do XAMPP.
+
+---
+
+### Criando o Banco de Dados ###
+
+1. Abra o local http://localhost/phpmyadmin/ em seu navegador;
+2. Adicione um novo banco de dados chamado "empresa";
+3. Execute o script sql no arquivo script.sql.
+
+---
+### Comandos XAMPP ###
+- Iniciar
+```
+sudo /opt/lampp/lampp start
+```
+- Parar
+```
+sudo /opt/lampp/lampp stop
+```
+- Reiniciar
+```
+sudo /opt/lampp/lampp restart
+```
